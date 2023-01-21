@@ -1,0 +1,140 @@
+body{
+	border: 5px solid #ccffff;
+	background-color: #fff6e6;
+}
+*{
+	font-family:'Brush Script MT';
+}
+header{
+	background-color: #ccffff;
+	text-align: center;
+	padding: 10px;
+}
+nav{
+	top: 0;
+	position: sticky;
+	font-size: 25px;
+	background-color: white;
+	overflow: hidden;
+	border: 5px solid #ccffff;
+}
+nav a{
+	margin-left: 110px;
+	margin-right: 75px;
+	text-decoration: none;
+	color:black;
+	background-color: white;
+	padding: 10px;
+}
+#welcome{
+	border: 5px solid #ccffff;
+	background-color: white;
+}
+.colb1 {
+    padding-left:0px;
+    text-align:center;
+    white-space:nowrap;
+    width:50%;
+    float:left;
+    overflow: hidden;
+    height: 50%;
+}
+.rowb1::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+.pic{
+	width: 250px;
+	margin: 25px 25px 25px 25px;
+	border: 1px solid #ccffff;
+    border-radius: 100%;
+}
+.title{
+	border: 5px solid #ccffff;
+	text-align: center;
+	background-color: white;
+}
+
+.Descs {
+    margin-top: 125px;
+    font-size: 25px;
+}
+.gallery{
+	border: 5px solid #ccffff;
+	background-color: white;
+}
+.pics{
+	width: 250px;
+	height: 250px;
+	margin: 25px 25px 25px 25px;
+	border: 1px solid #ccffff;
+    border-radius: 15px;
+    transition: transform 1s;
+}
+.pics:hover{
+	transform: scale(1.5);
+
+}
+.colb3 {
+    padding-left:0px;
+    text-align:center;
+    white-space:nowrap;
+    width:33.3%;
+    float:left;
+    overflow: hidden;
+    height: 50%;
+    border-radius: 15px;
+}
+.rowb3::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+.desc{
+	border: 5px solid #ccffff;
+	text-align: center;
+	background-color: white;
+}
+.video{
+	border: 5px solid #ccffff;
+	background-color: white;
+	text-align: center;
+}
+video{
+	width: 250px;
+	height: 250px;
+	margin: 25px 25px 25px 25px;
+	border: 1px solid #ccffff;
+    border-radius: 15px;
+	transition: transform 1s;
+}
+video:hover{
+		transform: scale(1.5);
+
+}
+.lg{
+	border: 5px solid #ccffff;
+	background-color: white;
+}
+.colb2 {
+    padding-left:0px;
+    text-align:center;
+    white-space:nowrap;
+    width:50%;
+    float:left;
+    overflow: hidden;
+    height: 50%;
+    border-radius: 15px;
+}
+#s4{
+	border: 5px solid #ccffff;
+	background-color: white;
+}
+footer{
+	background-color: #ccffff;
+	padding: 10px;
+}
+.font{
+	font-size: 25px;
+}
